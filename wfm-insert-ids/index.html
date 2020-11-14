@@ -40,7 +40,7 @@ Uncompressed:
   function addIds(idx, val) {
     var td = jQuery(val).find('th,td')[1];
     if(!(/uidspan/.test(td.innerHTML))){
-      td.innerHTML = ("<span id='uidspan'>[" +jQuery(val).attr('uid') + "] </span> ") + td.innerHTML;
+      td.innerHTML = ("&lt;span id='uidspan'>[" +jQuery(val).attr('uid') + "] &lt;/span> ") + td.innerHTML;
     }
   }
 
