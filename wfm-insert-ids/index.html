@@ -2,7 +2,7 @@
 <h2>Bookmarklet</h2>
 
 Drag this to bookmarks / favourite bar:
-<a href="javascript:void%20function(){function%20t(t,r){var%20e=jQuery(r).find(%22th,td%22)[1];/uidspan/.test(e.innerHTML)||(e.innerHTML=%22[%22+jQuery(r).attr(%22uid%22)+%22]%20%20%22+e.innerHTML)}var%20r=window.top.frames.mctnt.frames.oRightPaneContent;r.jQuery(%22tr.tblRow,tr.tblRowSelect%22).each(t);try{var%20e=r.popupManager.oOpenedWindows.POPUP_WorkPatternSelection_1;e%26%26e.jQuery(%22tr.tblRow,tr.tblRowSelect%22).each(t)}catch(n){console.error(%22couldn't%20sort%20popup%22,n)}var%20o=r.workPatternList_table,i=window.prompt(%22IDs%20to%20insert%3F%20(comma%20delimited,%20e.g.%201,2,34,52)%22,%22%22);i%26%26i.split(%22,%22).map(function(t){return%20parseInt(t.trim())}).filter(function(t){return%20t||0===t}).forEach(function(t){o.appendRow(t,[%22%22+t])})}();">WFM add IDs</a>
+<a href="javascript:void%20function(){function%20t(t,r){var%20e=jQuery(r).find(%22th,td%22)[1];/uidspan/.test(e.innerHTML)||(e.innerHTML=%22[%22+jQuery(r).attr(%22uid%22)+%22]%20%20%22+e.innerHTML)}var%20r=window.top.frames.mctnt.frames.oRightPaneContent;r.jQuery(%22tr.tblRow,tr.tblRowSelect%22).each(t);try{var%20e=r.popupManager.oOpenedWindows.POPUP_WorkPatternSelection_1;e%26%26e.jQuery(%22tr.tblRow,tr.tblRowSelect%22).each(t)}catch(n){console.error(%22couldn't%20sort%20popup%22,n)}var%20o=r.workPatternList_table,i=window.prompt(%22IDs%20to%20insert%3F%20(comma%20delimited,%20e.g.%201,2,34,52)%22,%22%22);i%26%26i.split(%22,%22).map(function(t){return%20parseInt(t.trim())}).filter(function(t){return%20t||0===t}).forEach(function(t){o.appendRow(t,[%22%22+t])})}();">WFM insert IDs</a>
 
 <h2>Use</h2>
 
